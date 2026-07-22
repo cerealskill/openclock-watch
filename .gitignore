@@ -1,0 +1,36 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local/private runtime data (contain personal data — never commit)
+.env
+.env.*
+!.env.example
+backend/profile.json
+backend/memories.json
+backend/summaries.json
+backend/reminders.json
+backend/.watchdog_state
+
+# Xcode user/local files
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+DerivedData/
+build/
+
+# Claude/local agent config
+.claude/

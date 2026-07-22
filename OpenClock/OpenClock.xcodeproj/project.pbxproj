@@ -1,0 +1,990 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D2A1DACD2F9DC68500A7F2C6 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2A1DACC2F9DC68500A7F2C6 /* WidgetKit.framework */; };
+		D2A1DACF2F9DC68500A7F2C6 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2A1DACE2F9DC68500A7F2C6 /* SwiftUI.framework */; };
+		D2A1DADC2F9DC68600A7F2C6 /* OpenClawWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = D2A1DACA2F9DC68500A7F2C6 /* OpenClawWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D2E1000A2FA0000000000002 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2A1DACC2F9DC68500A7F2C6 /* WidgetKit.framework */; };
+		D2E1000A2FA0000000000003 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2A1DACE2F9DC68500A7F2C6 /* SwiftUI.framework */; };
+		D2E1000A2FA0000000000004 /* HermesWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = D2E1000A2FA0000000000001 /* HermesWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D2A1DADA2F9DC68600A7F2C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2DE3C1C2F9B3CB000B891D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2A1DAC92F9DC68500A7F2C6;
+			remoteInfo = OpenClawWidgetExtension;
+		};
+		D2E1000A2FA0000000000005 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2DE3C1C2F9B3CB000B891D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2E1000A2FA000000000000A;
+			remoteInfo = HermesWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D2A1DADD2F9DC68600A7F2C6 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D2A1DADC2F9DC68600A7F2C6 /* OpenClawWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2E1000A2FA0000000000006 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D2E1000A2FA0000000000004 /* HermesWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D2A1DACA2F9DC68500A7F2C6 /* OpenClawWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = OpenClawWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2A1DACC2F9DC68500A7F2C6 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		D2A1DACE2F9DC68500A7F2C6 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		D2B000052F9E000000000005 /* HermesClock Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HermesClock Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2C000052F9F000000000005 /* ClaudeClock Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ClaudeClock Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2DE3C282F9B3CB000B891D6 /* OpenClock Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OpenClock Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2E1000A2FA0000000000001 /* HermesWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = HermesWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		D2A1DAE02F9DC68600A7F2C6 /* Exceptions for "OpenClawWidget" folder in "OpenClawWidgetExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = D2A1DAC92F9DC68500A7F2C6 /* OpenClawWidgetExtension */;
+		};
+		D2E1000A2FA0000000000007 /* Exceptions for "HermesWidget" folder in "HermesWidgetExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = D2E1000A2FA000000000000A /* HermesWidgetExtension */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D2A1DAD02F9DC68500A7F2C6 /* OpenClawWidget */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				D2A1DAE02F9DC68600A7F2C6 /* Exceptions for "OpenClawWidget" folder in "OpenClawWidgetExtension" target */,
+			);
+			path = OpenClawWidget;
+			sourceTree = "<group>";
+		};
+		D2B000062F9E000000000006 /* HermesClock Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "HermesClock Watch App";
+			sourceTree = "<group>";
+		};
+		D2C000062F9F000000000006 /* ClaudeClock Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "ClaudeClock Watch App";
+			sourceTree = "<group>";
+		};
+		D2DE3C2C2F9B3CB000B891D6 /* OpenClock Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "OpenClock Watch App";
+			sourceTree = "<group>";
+		};
+		D2E1000A2FA0000000000008 /* HermesWidget */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				D2E1000A2FA0000000000007 /* Exceptions for "HermesWidget" folder in "HermesWidgetExtension" target */,
+			);
+			path = HermesWidget;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2A1DAC72F9DC68500A7F2C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2A1DACF2F9DC68500A7F2C6 /* SwiftUI.framework in Frameworks */,
+				D2A1DACD2F9DC68500A7F2C6 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2B000072F9E000000000007 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2C000072F9F000000000007 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2DE3C252F9B3CB000B891D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2E1000A2FA0000000000009 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2E1000A2FA0000000000003 /* SwiftUI.framework in Frameworks */,
+				D2E1000A2FA0000000000002 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D2A1DACB2F9DC68500A7F2C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2A1DACC2F9DC68500A7F2C6 /* WidgetKit.framework */,
+				D2A1DACE2F9DC68500A7F2C6 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2DE3C1B2F9B3CB000B891D6 = {
+			isa = PBXGroup;
+			children = (
+				D2DE3C2C2F9B3CB000B891D6 /* OpenClock Watch App */,
+				D2B000062F9E000000000006 /* HermesClock Watch App */,
+				D2C000062F9F000000000006 /* ClaudeClock Watch App */,
+				D2A1DAD02F9DC68500A7F2C6 /* OpenClawWidget */,
+				D2E1000A2FA0000000000008 /* HermesWidget */,
+				D2A1DACB2F9DC68500A7F2C6 /* Frameworks */,
+				D2DE3C232F9B3CB000B891D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D2DE3C232F9B3CB000B891D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2DE3C282F9B3CB000B891D6 /* OpenClock Watch App.app */,
+				D2B000052F9E000000000005 /* HermesClock Watch App.app */,
+				D2C000052F9F000000000005 /* ClaudeClock Watch App.app */,
+				D2A1DACA2F9DC68500A7F2C6 /* OpenClawWidgetExtension.appex */,
+				D2E1000A2FA0000000000001 /* HermesWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2A1DAC92F9DC68500A7F2C6 /* OpenClawWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2A1DAE12F9DC68600A7F2C6 /* Build configuration list for PBXNativeTarget "OpenClawWidgetExtension" */;
+			buildPhases = (
+				D2A1DAC62F9DC68500A7F2C6 /* Sources */,
+				D2A1DAC72F9DC68500A7F2C6 /* Frameworks */,
+				D2A1DAC82F9DC68500A7F2C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D2A1DAD02F9DC68500A7F2C6 /* OpenClawWidget */,
+			);
+			name = OpenClawWidgetExtension;
+			packageProductDependencies = (
+			);
+			productName = OpenClawWidgetExtension;
+			productReference = D2A1DACA2F9DC68500A7F2C6 /* OpenClawWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		D2B0000C2F9E00000000000C /* HermesClock Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2B000122F9E000000000012 /* Build configuration list for PBXNativeTarget "HermesClock Watch App" */;
+			buildPhases = (
+				D2B0000A2F9E00000000000A /* Sources */,
+				D2B000072F9E000000000007 /* Frameworks */,
+				D2B000092F9E000000000009 /* Resources */,
+				D2E1000A2FA0000000000006 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2E1000A2FA000000000000D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D2B000062F9E000000000006 /* HermesClock Watch App */,
+			);
+			name = "HermesClock Watch App";
+			packageProductDependencies = (
+			);
+			productName = "HermesClock Watch App";
+			productReference = D2B000052F9E000000000005 /* HermesClock Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D2C0000C2F9F00000000000C /* ClaudeClock Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2C000122F9F000000000012 /* Build configuration list for PBXNativeTarget "ClaudeClock Watch App" */;
+			buildPhases = (
+				D2C0000A2F9F00000000000A /* Sources */,
+				D2C000072F9F000000000007 /* Frameworks */,
+				D2C000092F9F000000000009 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D2C000062F9F000000000006 /* ClaudeClock Watch App */,
+			);
+			name = "ClaudeClock Watch App";
+			packageProductDependencies = (
+			);
+			productName = "ClaudeClock Watch App";
+			productReference = D2C000052F9F000000000005 /* ClaudeClock Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D2DE3C272F9B3CB000B891D6 /* OpenClock Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2DE3C352F9B3CB100B891D6 /* Build configuration list for PBXNativeTarget "OpenClock Watch App" */;
+			buildPhases = (
+				D2DE3C242F9B3CB000B891D6 /* Sources */,
+				D2DE3C252F9B3CB000B891D6 /* Frameworks */,
+				D2DE3C262F9B3CB000B891D6 /* Resources */,
+				D2A1DADD2F9DC68600A7F2C6 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2A1DADB2F9DC68600A7F2C6 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D2DE3C2C2F9B3CB000B891D6 /* OpenClock Watch App */,
+			);
+			name = "OpenClock Watch App";
+			packageProductDependencies = (
+			);
+			productName = "OpenClock Watch App";
+			productReference = D2DE3C282F9B3CB000B891D6 /* OpenClock Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D2E1000A2FA000000000000A /* HermesWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2E1000A2FA0000000000010 /* Build configuration list for PBXNativeTarget "HermesWidgetExtension" */;
+			buildPhases = (
+				D2E1000A2FA000000000000B /* Sources */,
+				D2E1000A2FA0000000000009 /* Frameworks */,
+				D2E1000A2FA000000000000C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D2E1000A2FA0000000000008 /* HermesWidget */,
+			);
+			name = HermesWidgetExtension;
+			packageProductDependencies = (
+			);
+			productName = HermesWidgetExtension;
+			productReference = D2E1000A2FA0000000000001 /* HermesWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2DE3C1C2F9B3CB000B891D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2640;
+				LastUpgradeCheck = 2640;
+				TargetAttributes = {
+					D2A1DAC92F9DC68500A7F2C6 = {
+						CreatedOnToolsVersion = 26.4.1;
+					};
+					D2B0000C2F9E00000000000C = {
+						CreatedOnToolsVersion = 26.4.1;
+					};
+					D2C0000C2F9F00000000000C = {
+						CreatedOnToolsVersion = 26.4.1;
+					};
+					D2DE3C272F9B3CB000B891D6 = {
+						CreatedOnToolsVersion = 26.4.1;
+					};
+					D2E1000A2FA000000000000A = {
+						CreatedOnToolsVersion = 26.4.1;
+					};
+				};
+			};
+			buildConfigurationList = D2DE3C1F2F9B3CB000B891D6 /* Build configuration list for PBXProject "OpenClock" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D2DE3C1B2F9B3CB000B891D6;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D2DE3C232F9B3CB000B891D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2DE3C272F9B3CB000B891D6 /* OpenClock Watch App */,
+				D2B0000C2F9E00000000000C /* HermesClock Watch App */,
+				D2C0000C2F9F00000000000C /* ClaudeClock Watch App */,
+				D2A1DAC92F9DC68500A7F2C6 /* OpenClawWidgetExtension */,
+				D2E1000A2FA000000000000A /* HermesWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2A1DAC82F9DC68500A7F2C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2B000092F9E000000000009 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2C000092F9F000000000009 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2DE3C262F9B3CB000B891D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2E1000A2FA000000000000C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2A1DAC62F9DC68500A7F2C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2B0000A2F9E00000000000A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2C0000A2F9F00000000000A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2DE3C242F9B3CB000B891D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2E1000A2FA000000000000B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D2A1DADB2F9DC68600A7F2C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2A1DAC92F9DC68500A7F2C6 /* OpenClawWidgetExtension */;
+			targetProxy = D2A1DADA2F9DC68600A7F2C6 /* PBXContainerItemProxy */;
+		};
+		D2E1000A2FA000000000000D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2E1000A2FA000000000000A /* HermesWidgetExtension */;
+			targetProxy = D2E1000A2FA0000000000005 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D2A1DADE2F9DC68600A7F2C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = D5U3YWC66F;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OpenClawWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = OpenClawWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cereal.OpenClock.watchkitapp.OpenClawWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 26.4;
+			};
+			name = Debug;
+		};
+		D2A1DADF2F9DC68600A7F2C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = D5U3YWC66F;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OpenClawWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = OpenClawWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cereal.OpenClock.watchkitapp.OpenClawWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 26.4;
+			};
+			name = Release;
+		};
+		D2B0000E2F9E00000000000E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D5U3YWC66F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = HermesClock;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "HermesClock necesita acceso al micrófono para dictar mensajes a Hermes.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "HermesClock usa reconocimiento de voz para convertir tu dictado en texto.";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cereal.HermesClock.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Debug;
+		};
+		D2B0000F2F9E00000000000F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D5U3YWC66F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = HermesClock;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "HermesClock necesita acceso al micrófono para dictar mensajes a Hermes.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "HermesClock usa reconocimiento de voz para convertir tu dictado en texto.";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cereal.HermesClock.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Release;
+		};
+		D2C0000E2F9F00000000000E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D5U3YWC66F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Claude Clock";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Claude Clock necesita acceso al micrófono para dictar mensajes a Claude.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Claude Clock usa reconocimiento de voz para convertir tu dictado en texto.";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cereal.ClaudeClock.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Debug;
+		};
+		D2C0000F2F9F00000000000F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D5U3YWC66F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Claude Clock";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Claude Clock necesita acceso al micrófono para dictar mensajes a Claude.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Claude Clock usa reconocimiento de voz para convertir tu dictado en texto.";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cereal.ClaudeClock.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Release;
+		};
+		D2DE3C332F9B3CB100B891D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = D5U3YWC66F;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D2DE3C342F9B3CB100B891D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = D5U3YWC66F;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		D2DE3C362F9B3CB100B891D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = D5U3YWC66F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = OpenClock;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "OpenClock necesita acceso al micrófono para dictar mensajes.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "OpenClock usa reconocimiento de voz para convertir tu dictado en texto.";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cereal.OpenClock.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Debug;
+		};
+		D2DE3C372F9B3CB100B891D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = D5U3YWC66F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = OpenClock;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "OpenClock necesita acceso al micrófono para dictar mensajes.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "OpenClock usa reconocimiento de voz para convertir tu dictado en texto.";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cereal.OpenClock.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Release;
+		};
+		D2E1000A2FA000000000000E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D5U3YWC66F;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HermesWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = HermesWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cereal.HermesClock.watchkitapp.HermesWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Debug;
+		};
+		D2E1000A2FA000000000000F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D5U3YWC66F;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HermesWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = HermesWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cereal.HermesClock.watchkitapp.HermesWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2A1DAE12F9DC68600A7F2C6 /* Build configuration list for PBXNativeTarget "OpenClawWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2A1DADE2F9DC68600A7F2C6 /* Debug */,
+				D2A1DADF2F9DC68600A7F2C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2B000122F9E000000000012 /* Build configuration list for PBXNativeTarget "HermesClock Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2B0000E2F9E00000000000E /* Debug */,
+				D2B0000F2F9E00000000000F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2C000122F9F000000000012 /* Build configuration list for PBXNativeTarget "ClaudeClock Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2C0000E2F9F00000000000E /* Debug */,
+				D2C0000F2F9F00000000000F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2DE3C1F2F9B3CB000B891D6 /* Build configuration list for PBXProject "OpenClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2DE3C332F9B3CB100B891D6 /* Debug */,
+				D2DE3C342F9B3CB100B891D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2DE3C352F9B3CB100B891D6 /* Build configuration list for PBXNativeTarget "OpenClock Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2DE3C362F9B3CB100B891D6 /* Debug */,
+				D2DE3C372F9B3CB100B891D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2E1000A2FA0000000000010 /* Build configuration list for PBXNativeTarget "HermesWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2E1000A2FA000000000000E /* Debug */,
+				D2E1000A2FA000000000000F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2DE3C1C2F9B3CB000B891D6 /* Project object */;
+}
