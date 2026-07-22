@@ -154,4 +154,8 @@ Los datos de runtime (`profile.json`, `summaries.json`, `reminders.json`, `.env`
 
 ## 📄 Licencia
 
-Sin licencia definida aún. Todos los derechos reservados por el autor hasta que se añada una.
+**GNU Affero General Public License v3.0 (AGPL-3.0)** — ver [`LICENSE`](LICENSE).
+
+Puedes usar, modificar y redistribuir el proyecto libremente; si lo ofreces como servicio en red, debes publicar también tu código modificado. El titular del copyright se reserva el derecho de ofrecer licencias comerciales alternativas.
+
+Copyright © 2026 [cerealskill](https://github.com/cerealskill).
