@@ -62,7 +62,10 @@ private class SpeechManager: NSObject, AVSpeechSynthesizerDelegate {
         let chunks = sentences.isEmpty ? [text] : sentences
         for chunk in chunks {
             let utterance = AVSpeechUtterance(string: chunk)
+            // es-CL casi nunca está instalada en el Watch; sin fallback la
+            // utterance queda sin voz y no suena. Igual que HermesClock.
             utterance.voice = AVSpeechSynthesisVoice(language: "es-CL")
+                ?? AVSpeechSynthesisVoice(language: "es-ES")
             utterance.rate = 0.5
             utterance.preUtteranceDelay = 0.05
             pendingUtterances += 1
